@@ -1,7 +1,76 @@
- <!--< html > < head > < title > QuickPick < / title > < / head > < body > < h1 > Welcome to QuickPick < / h1 > < / body > < / html >-->
-<div class="product-card">
-  <img src="https://i.postimg.cc/c40Pp32F/IMG-0919.jpg" alt="Trending off-shoulder top" style="width:100%; border-radius: 8px;">
-  <h3>Trending off-shoulder top </h3>
-  <p><span style="text-decoration: line-through; color: gray;">₹308</span> <strong style="color: #e41e3a; font-size: 1.25em;">₹499</strong></p>
-  <button style="background-color: #e41e3a; color: white; border: none; padding: 10px 20px; width: 100%; border-radius: 5px; cursor: pointer;">BUY NOW</button>
-</div>
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>QuickPick</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .product-card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 320px;
+      padding: 16px;
+      text-align: left;
+    }
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .product-details {
+      font-size: 0.9em;
+      color: #555;
+      margin: 10px 0;
+      padding-left: 18px;
+    }
+    .buy-btn {
+      background-color: #e41e3a;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      border-radius: 6px;
+      font-weight: bold;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .buy-btn:hover {
+      background-color: #c41630;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to QuickPick</h1>
+
+  <div class="product-card">
+    <img src="https://i.postimg.cc/c40Pp32F/IMG-0919.jpg" alt="Trending off-shoulder top">
+    <h3>Trending Off-Shoulder Top</h3>
+    
+    <ul class="product-details">
+      <li>Soft & breathable fabric</li>
+      <li>Stylish casual & party wear</li>
+      <li>Available sizes: S, M, L, XL</li>
+    </ul>
+
+    <p>
+      <span style="text-decoration: line-through; color: gray;">₹799</span> 
+      <strong style="color: #e41e3a; font-size: 1.3em;">₹499</strong>
+      <span style="color: green; font-size: 0.85em; font-weight: bold;">(37% OFF)</span>
+    </p>
+
+<button class="buy-btn" onclick="window.open('https://wa.me/919876543210?text=Hi,%20I%20want%20to%20order%20the%20Trending%20Off-Shoulder%20Top%20for%20₹499', '_blank')">BUY NOW</button>
+
+  </div>
+
+</body>
+</html>
